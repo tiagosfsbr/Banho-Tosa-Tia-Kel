@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Menu, PawPrint, X } from 'lucide-react'
-import { siteConfig, whatsappLink } from '../config/siteConfig'
+import { whatsappLink } from '../config/siteConfig'
 
 const links = [
   { label: 'Serviços', href: '#servicos' },
